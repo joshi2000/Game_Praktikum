@@ -33,6 +33,11 @@
     </sprites>
     <sprite>sprites\ground</sprite>
     <sprite>sprites\ground_up</sprite>
+    <sprite>sprites\sprite23_ground_Corner</sprite>
+    <sprite>sprites\sprite26_background</sprite>
+    <sprite>sprites\black_j</sprite>
+    <sprite>sprites\wall</sprite>
+    <sprite>sprites\sprite29</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -52,11 +57,16 @@
     <object>objects\obj_player_shoot</object>
     <object>objects\Player_dash</object>
     <object>objects\object11</object>
+    <object>objects\obj_back</object>
+    <object>objects\corner</object>
+    <object>objects\black</object>
+    <object>objects\ob_wall_high</object>
+    <object>objects\death</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_1</room>
-    <room>rooms\rm_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
